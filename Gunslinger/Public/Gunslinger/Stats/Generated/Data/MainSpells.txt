@@ -1,0 +1,29 @@
+// ============================ Dare Devil ============================ //
+
+new entry "Shout_DesperateEvasion"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Disengage"
+data "SpellProperties" "ApplyStatus(DESPERATE_EVASION,100,-1);ApplyStatus(DARE_ACTIVE,100,-1)"
+data "Icon" "Action_Disengage"
+data "DisplayName" "h41346ecfg26e5g444ag945bg9803a29de374;1"
+data "Description" "hf690b19egf89ag4005g9394g251cff112fee;1"
+data "TooltipStatusApply" "ApplyStatus(DESPERATE_EVASION,100,-1)"
+data "UseCosts" ""
+data "SpellFlags" "NoCameraMove;Temporary"
+data "RequirementConditions" "not HasStatus('DARE_ACTIVE')"
+
+new entry "Shout_FranticallyNimble"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Disengage"
+data "SpellProperties" "ApplyStatus(FRANTICALLY_NIMBLE,100,-1);ApplyStatus(DARE_ACTIVE,100,-1)"
+data "Icon" "Action_Disengage"
+data "DisplayName" "h8182570fg264dg4eceg9e1fg4064f24580d2;1"
+data "Description" "h9b9de73agcd4dg49c6g8e72g5e2b19fcd439;1"
+data "TooltipStatusApply" "ApplyStatus(FRANTICALLY_NIMBLE,100,-1)"
+data "UseCosts" ""
+data "SpellFlags" "NoCameraMove;Temporary"
+data "RequirementConditions" "not HasStatus('DARE_ACTIVE')"
+
+

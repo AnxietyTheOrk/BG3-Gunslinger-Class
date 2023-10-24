@@ -1,0 +1,63 @@
+// ============================ Grit Points ============================ //
+
+new entry "RegainGrit_Critical"
+type "PassiveData"
+data "DisplayName" "h085d3a10gdff6g42b4gb257ga7cb7f34b96d;1"
+data "Description" "h253c6179ge83eg445agb975gfec9002c1288;1"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "Enemy(context.Source,context.Target) and IsCritical() and IsWeaponOfProficiencyGroup('Slings', GetActiveWeapon()) and IsWeaponAttack()"
+data "StatsFunctors" "RestoreResource(GritPoint,1,0)"
+
+new entry "RegainGrit_KillingBlow"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "Enemy(context.Source,context.Target) and IsKillingBlow() and IsWeaponOfProficiencyGroup('Slings', GetActiveWeapon()) and IsWeaponAttack()"
+data "StatsFunctors" "RestoreResource(GritPoint,1,0)"
+
+// ============================ Dare Devil ============================ //
+
+new entry "DareDevil"
+type "PassiveData"
+data "DisplayName" "h73d589dcg7642g4739g8997gda7df0866d1f;1"
+data "Description" "h81e0ffb3g0cc1g4e43gba13g8d69829e9c6a;1"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnActionResourcesChanged"
+data "Conditions" "not HasActionResource('GritPoint', 1, 0, false, false, context.Source)"
+data "StatsFunctors" "UnlockSpell(Shout_DesperateEvasion);UnlockSpell(Shout_FranticallyNimble);UnlockSpell(Shout_OutForBlood);UnlockSpell(Shout_RunLikeHell)"
+
+new entry "DesperateEvasion"
+type "PassiveData"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "HasSavingThrowWithAbility(Ability.Dexterity) and IsLastSavingThrowRollSuccess()"
+data "StatsFunctors" "IF(HasStatus('DESPERATE_EVASION_SUCCESS_2')):RestoreResource(GritPoint,1,0);IF(HasStatus('DESPERATE_EVASION_SUCCESS_2')):RemoveStatus(DARE_ACTIVE);IF(not HasStatus('DESPERATE_EVASION_SUCCESS_2') and HasStatus('DESPERATE_EVASION_SUCCESS_1')):ApplyStatus(SELF,DESPERATE_EVASION_SUCCESS_2,100,-1);IF(not HasStatus('DESPERATE_EVASION_SUCCESS_2') and not HasStatus('DESPERATE_EVASION_SUCCESS_1')):ApplyStatus(SELF,DESPERATE_EVASION_SUCCESS_1,100,-1)"
+
+new entry "DesperateEvasion_RemoveStatus"
+type "PassiveData"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "HasSavingThrowWithAbility(Ability.Dexterity) and not IsLastSavingThrowRollSuccess()"
+data "StatsFunctors" "RemoveStatus(DESPERATE_EVASION_SUCCESS_1);RemoveStatus(DESPERATE_EVASION_SUCCESS_2)"
+
+new entry "FranticallyNimble"
+type "PassiveData"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "IsAttack() and not IsHit()"
+data "StatsFunctors" "IF(HasStatus('FRANTICALLY_NIMBLE_SUCCESS_3')):RestoreResource(GritPoint,1,0);IF(HasStatus('FRANTICALLY_NIMBLE_SUCCESS_3')):RemoveStatus(DARE_ACTIVE);IF(not HasStatus('FRANTICALLY_NIMBLE_SUCCESS_3') and HasStatus('FRANTICALLY_NIMBLE_SUCCESS_2')):ApplyStatus(SELF,FRANTICALLY_NIMBLE_SUCCESS_3,100,-1);IF(not HasStatus('FRANTICALLY_NIMBLE_SUCCESS_2') and HasStatus('FRANTICALLY_NIMBLE_SUCCESS_1')):ApplyStatus(SELF,FRANTICALLY_NIMBLE_SUCCESS_2,100,-1);IF(not HasStatus('FRANTICALLY_NIMBLE_SUCCESS_1')):ApplyStatus(SELF,FRANTICALLY_NIMBLE_SUCCESS_1,100,-1)"
+
+new entry "FranticallyNimble_RemoveStatus"
+type "PassiveData"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "IsAttack() and IsHit()"
+data "StatsFunctors" "RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_3);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_2);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_1)"
+

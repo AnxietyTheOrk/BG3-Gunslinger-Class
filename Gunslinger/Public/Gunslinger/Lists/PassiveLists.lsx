@@ -4,10 +4,83 @@
     <region id="PassiveLists">
         <node id="root">
             <children>
-                <node id="PassiveList">
+                <node id="PassiveList"> Level 1 Techniques
                     <attribute id="Passives" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="74185acf-79e9-4814-a082-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="3533c2b8-f438-426f-bcbe-f45555555555"/>
                 </node>
+                <node id="PassiveList"> Level 2 Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="af352e64-be7c-44cf-90a2-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 3 Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="954d9043-082c-44b3-836e-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 5 Drifter Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="bdddeab6-e882-4551-8e46-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 5 Pistolero Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="9c1b914e-2910-43a1-b9e0-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 5 Sniper Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="032605be-732a-44cb-9516-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 5 Spellshot Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="b2a96ad3-64f7-4d17-8258-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 5 Vanguard Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="1b4b4421-eca3-4045-a4a0-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 7 Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="010c09e3-7822-4ce1-b7ac-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 9 Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="f0614234-0365-4755-8f8d-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 11 Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="c2890d20-5a31-4bad-a8f9-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 13 Drifter Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="ea4eae12-5cc8-4b03-be59-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 13 Pistolero Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="f83ad9aa-1e3e-4902-9150-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 13 Sniper Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="4d320907-2116-4f5d-8eeb-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 13 Spellshot Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="2df18d08-9223-49d8-a1f2-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 13 Vanguard Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="d0540a12-ddff-4dd1-98c6-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 15 Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="19d9280b-cc5b-4eb1-8239-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 17 Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="e88a822c-3773-4e76-99b1-f45555555555"/>
+                </node>
+                <node id="PassiveList"> Level 19 Techniques
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="bfa42cdc-2603-4dbb-b9eb-f45555555555"/>
+                </node>
+                
             </children>
         </node>
     </region>
