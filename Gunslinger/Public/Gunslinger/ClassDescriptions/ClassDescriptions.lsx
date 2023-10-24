@@ -4,10 +4,10 @@
     <region id="ClassDescriptions">
         <node id="root">
             <children>
-                <node id="ClassDescription">
+                <node id="ClassDescription"> Main Class
                     <attribute id="BaseHp" type="int32" value="10"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Ranger"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Gunslinger"/>
                     <attribute id="ClassHotbarColumns" type="int32" value="5"/>
                     <attribute id="CommonHotbarColumns" type="int32" value="9"/>
                     <attribute id="Description" type="TranslatedString" handle="h25efd18eged37g4bbcg8f3dg53409a3e101c" version="1"/>
@@ -15,19 +15,82 @@
                     <attribute id="HpPerLevel" type="int32" value="6"/>
                     <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0.5"/>
                     <attribute id="Name" type="FixedString" value="Gunslinger"/>
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="f55ac323-04a4-4e43-8d90-f45555555555"/>
                     <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
-                    <attribute id="SpellList" type="guid" value="ffd3b636-d424-4120-87ae-4499a34828dc"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
                     <attribute id="UUID" type="guid" value="279ff302-7a34-4792-a045-f45555555555"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="37a733c1-a862-4157-b92a-9cff46232c6a"/>
                         </node>
                     </children>
+                </node>
+                <node id="ClassDescription"> Drifter
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="ha1e06391ge118g472egb142g8761d0855ef8" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb99fdb1dgda50g4e73g9e08ga9bc6bee252f" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Drifter"/>
+                    <attribute id="ParentGuid" type="guid" value="279ff302-7a34-4792-a045-f45555555555"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c976bb32-9581-4402-a48d-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
+                    <attribute id="UUID" type="guid" value="44cf7c01-2af9-4bd0-92f4-f45555555555"/>
+                </node>
+                <node id="ClassDescription"> Pistolero
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h837c81d9gb60cg41e1g914bg8ff31404646d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6cd1f280g4bc6g4963g832eg19afa8955b8d" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Pistolero"/>
+                    <attribute id="ParentGuid" type="guid" value="279ff302-7a34-4792-a045-f45555555555"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="4f653d09-e06e-4fa5-96da-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
+                    <attribute id="UUID" type="guid" value="006f87d4-641c-4146-9cef-f45555555555"/>
+                </node>
+                <node id="ClassDescription"> Sniper
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h69cb585dg7b45g4108ga548gbde753a757e0" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd5d05a53g3de3g40a4g8011gd9772c218bdd" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Sniper"/>
+                    <attribute id="ParentGuid" type="guid" value="279ff302-7a34-4792-a045-f45555555555"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="bc5f185b-f735-4650-bc76-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
+                    <attribute id="UUID" type="guid" value="b5b34512-95ea-462c-9242-f45555555555"/>
+                </node>
+                <node id="ClassDescription"> Spellshot
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h5a4a73cbg31bcg485dg8bcbgbb8a5c5b25ba" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf332a401g5f43g4c01g8ffbg1ce49558cfe2" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Spellshot"/>
+                    <attribute id="ParentGuid" type="guid" value="279ff302-7a34-4792-a045-f45555555555"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="aea54d40-7079-47d3-9d0c-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
+                    <attribute id="UUID" type="guid" value="7b6462bd-78bb-440d-9d9d-f45555555555"/>
+                </node>
+                <node id="ClassDescription"> Vanguard
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h1e4428bfgb4edg45dag9b93g63781cd4ae18" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9eba5906gf9b3g4af3ga312ge79d555decd3" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Vanguard"/>
+                    <attribute id="ParentGuid" type="guid" value="279ff302-7a34-4792-a045-f45555555555"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="302c4a4c-3aad-4b1c-802f-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
+                    <attribute id="UUID" type="guid" value="f6a69d9f-35c0-4fb3-a0a9-f45555555555"/>
                 </node>
             </children>
         </node>

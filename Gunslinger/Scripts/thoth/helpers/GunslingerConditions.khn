@@ -1,0 +1,5 @@
+local __util = require 'larian.util'
+
+function TechniqueSaveDC()
+    return 10 + math.max(GetModifier(context.Source.Dexterity))
+end
