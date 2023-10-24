@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression"> Mainclass Level 1
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Gunslinger"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
+					<attribute id="TableUUID" type="guid" value="f55ac323-04a4-4e43-8d90-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="5d61842a-45ba-473e-8ef8-f45555555555"/>
+                </node>
+				<node id="Progression"> Mainclass Level 1 MULTICLASS.
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor)"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+					<attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Example"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+					<attribute id="TableUUID" type="guid" value="f55ac323-04a4-4e43-8d90-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="b21f05f6-d87d-4034-ba78-f45555555555"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
