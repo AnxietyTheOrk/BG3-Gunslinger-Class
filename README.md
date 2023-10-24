@@ -1,5 +1,13 @@
 # BG3-Gunslinger-Class
 <br>
+Goals
+<br>
+- class need to be fun to play
+<br>
+- each feature need to be meaningful and feel rewarding to pick
+<br>
+- class can not make other classes obsolete
+<br>
 Basic progression (Levels, hp, proficiencies, etc.)
 <br>
 Grit
