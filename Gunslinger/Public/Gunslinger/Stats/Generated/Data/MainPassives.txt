@@ -69,3 +69,14 @@ data "Icon" "GenericIcon_DamageType_Lightning"
 data "Properties" "IsHidden"
 data "Boosts" "MinimumRollResult(Perception,10)"
 
+// ============================ Level 1 Techniques ============================ //
+
+new entry "Passive_QuickFix"
+type "PassiveData"
+data "DisplayName" "TODO;1"
+data "Description" "TODO;1"
+data "Icon" "Action_Monster_GortashMachine_GrenadeLauncher"
+data "Properties" ""
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsWeaponAttack and IsMiss() and IsWeaponProficiencyGroup('Slings',GetActiveWeapon())"
+data "StatsFunctors" "UnlockSpell(Main-Hand_Firearm_Attack_Quick_Fix)"
