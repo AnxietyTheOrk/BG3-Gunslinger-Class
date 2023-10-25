@@ -54,7 +54,7 @@ data "Icon" "Spell_Transmutation_Knock"
 data "DisplayName" "TODO;1"
 data "Description" "TODO;2"
 
-new entry "Main-Hand Firearm Attack_Quick_Fix"
+new entry "Main-Hand_Firearm_Attack_Quick_Fix"
 type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_MainHandAttack"
