@@ -80,3 +80,12 @@ data "Boosts" "ReduceCriticalAttackThreshold(1)"
 data "RemoveEvents" "OnStatusRemoved"
 data "RemoveConditions" "not HasStatus('DARE_ACTIVE')"
 
+// ============================ Level 1 Techniques ============================ //
+
+new entry "QUICK_FIX_FIREARM_ATTACK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "Action_Monster_GortashMachine_GrenadeLauncher"
+data "StackId" "QUICK_FIX_BOOST"
+data "Boosts" "UnlockSpell(Main-Hand_Firearm_Attack_Quick_Fix)"
+data "StatusGroups" "SG_RemoveOnRespec"
