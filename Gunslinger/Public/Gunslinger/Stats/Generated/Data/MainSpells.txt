@@ -39,4 +39,18 @@ data "UseCosts" ""
 data "SpellFlags" "NoCameraMove;Temporary"
 data "RequirementConditions" "not HasStatus('DARE_ACTIVE')"
 
+// ============================ Level 1 Techniques ============================ //
+
+new entry "Target_BlastLocks"
+type "SpellData"
+type "SpellType" "Target"
+using "ATO_Projectile_MainHandAttack"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "SpellSuccess" "Unlock()"
+data "SpellFail" ""
+data "TargetRadius" "1.5"
+data "TargetConditions" "Item() and Locked() and not HasStatus('ARCANE_LOCK')"
+data "Icon" "Spell_Transmutation_Knock"
+data "DisplayName" "TODO;1"
+data "Description" "TODO;2"
 
