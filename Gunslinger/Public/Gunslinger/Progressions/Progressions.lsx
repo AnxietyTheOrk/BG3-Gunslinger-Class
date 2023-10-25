@@ -9,7 +9,7 @@
                     <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(Slings);Proficiency(LightArmor);Proficiency(MediumArmor)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Gunslinger"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_QuickFix"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(3533c2b8-f438-426f-bcbe-f45555555555,1,GunslingerTechnique);SelectSkills(2fb88028-b721-4218-93d0-f45555555555,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
@@ -43,7 +43,7 @@
                     <attribute id="IsMulticlass" type="bool" value="true"/>
 					<attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Example"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_QuickFix"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(3533c2b8-f438-426f-bcbe-f45555555555,1,GunslingerTechnique);"/>
