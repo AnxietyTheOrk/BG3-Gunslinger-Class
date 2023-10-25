@@ -26,4 +26,17 @@ data "UseCosts" ""
 data "SpellFlags" "NoCameraMove;Temporary"
 data "RequirementConditions" "not HasStatus('DARE_ACTIVE')"
 
+new entry "Shout_OutForBlood"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Disengage"
+data "SpellProperties" "ApplyStatus(OUT_FOR_BLOOD,100,-1);ApplyStatus(DARE_ACTIVE,100,-1)"
+data "Icon" "Action_Disengage"
+data "DisplayName" "h8182570fg264dg4eceg9e1fg4064f24580d2;1"
+data "Description" "h9b9de73agcd4dg49c6g8e72g5e2b19fcd439;1"
+data "TooltipStatusApply" "ApplyStatus(OUT_FOR_BLOOD,100,-1)"
+data "UseCosts" ""
+data "SpellFlags" "NoCameraMove;Temporary"
+data "RequirementConditions" "not HasStatus('DARE_ACTIVE')"
+
 

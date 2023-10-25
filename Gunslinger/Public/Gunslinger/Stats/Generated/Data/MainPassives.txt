@@ -61,3 +61,11 @@ data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsAttack() and IsHit()"
 data "StatsFunctors" "RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_3);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_2);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_1)"
 
+// ============================ Vigilant ============================ //
+
+new entry "Vigilant"
+type "PassiveData"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Properties" "IsHidden"
+data "Boosts" "MinimumRollResult(Perception,10)"
+

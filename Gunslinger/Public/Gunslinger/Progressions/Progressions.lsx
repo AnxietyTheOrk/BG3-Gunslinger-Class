@@ -127,7 +127,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(GritPoint,1,0)"/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Gunslinger"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vigilant"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value=""/>
@@ -142,7 +142,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(f0614234-0365-4755-8f8d-f45555555555,1,GunslingerTechnique);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f0614234-0365-4755-8f8d-f45555555555,1,GunslingerTechnique);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,1)"/>
 					<attribute id="TableUUID" type="guid" value="f55ac323-04a4-4e43-8d90-f45555555555"/>
                     <attribute id="UUID" type="guid" value="11bc204b-308d-47b0-9e5d-f45555555555"/>
                 </node>
@@ -163,7 +163,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Gunslinger"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Evasion"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(c2890d20-5a31-4bad-a8f9-f45555555555,1,GunslingerTechnique);"/>
