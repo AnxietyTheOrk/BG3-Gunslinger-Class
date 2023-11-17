@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<content contentuid="hd5fe6c55gbef7g4adag9545g3368d8a13daf" version="1">Gunslinger</content>
+
+	<content contentuid="hd5fe6c55gbef7g4adag9545g3368d8a13daf" version="1">Gunslinger</content> ========= Main Class =========
 	<content contentuid="h25efd18eged37g4bbcg8f3dg53409a3e101c" version="1">Gunslinger DESCRIPTION</content>
 	<content contentuid="hb99fdb1dgda50g4e73g9e08ga9bc6bee252f" version="1">Drifter</content>
 	<content contentuid="ha1e06391ge118g472egb142g8761d0855ef8" version="1">Drifter DESCRIPTION</content>
@@ -24,6 +25,29 @@
 	<content contentuid="h9b9de73agcd4dg49c6g8e72g5e2b19fcd439" version="1">While this dare is active, you gain a +2 bonus to AC. You regain 1 grit point when hostile creatures misses you with an attack three consecutive times. The attacks need not come from the same enemy.</content>
 	<content contentuid="h6de5468bgaabdg4892gbedagd375037b1c4c" version="1">Out for Blood</content>
 	<content contentuid="h615cc234ge091g45b3gb03cgf859df0014c5" version="1">While this dare is active, reduce the number you need to roll to score a critical hit by 1.</content>
+	<content contentuid="h12d3b79fg455eg40a5g92ccg1b36ae608651" version="1">Run Like Hell</content>
+	<content contentuid="h2ef44776g0054g48b1g8b67ga13fbdb31feb" version="1">While this dare is active, your speed increases by 10 feet, and you may take the dash action as a bonus action on your turn. you regain 1 grit point the moment you flee from combat.</content>
+	<content contentuid="ha9e8d6b3g217bg4838ga0fegd3ebce84a210" version="1">Vigilant</content>
+	<content contentuid="hc11ebdddg2a64g474ega3a2gcc88f1ce858d" version="1">Through your adventures, you’ve developed keen awareness and attention to detail even in the most limiting situations. Starting at level 8, Your passive perception can not be reduced as a result of having disadvantage.</content>
+	<content contentuid="habe96654gf955g4a2ag9905g99a24b8a0c62" version="1">Stubborn</content>
+	<content contentuid="hb24db78dgd983g4f9bgb06fg6f7d723ba939" version="1">You don’t like being told what to do, and you don’t give up on it. When you reach 13th level, when you fail a saving throw against charmed, frightened, or similar effects that would affect your actions, you can choose to succeed instead. Once you have used this feature, you may not use this feature again until the end of a long rest.</content>
+	<content contentuid="hcfcf576fg1517g41bbgb2c5gc12971516402" version="1">Universal Armory</content>
+	<content contentuid="h55dc29d3g24eag43bcgbe13g2555630d97ec" version="1">PLACE HOLDER</content>
+	<content contentuid="hb7771c84g986cg4c84g9397g1203bf591ce4" version="1">Shootist's Edge</content>
+	<content contentuid="h5e40b0afg30adg4c96gbacfg94ba5c448513" version="1">You make shots others find impossible. When a creature succeed in a saving throw or ability check against any of your gunslinger techniques, you may spend 1 grit point and force them to reroll the saving throw or ability check, protentially turning it into a failure.</content>
+	<content contentuid="h12972960g76fdg4205ga4f1g406b904dc07e" version="1">True Grit</content>
+	<content contentuid="h41953b1ega237g4339gbecbg8687e80de585" version="1">At 20th level, you may pick two techniques that you have that requires grit to perform. You may perform these techniques for 1 grit point fewer (minimum of 0) than usual. If the number of grit points to perform a deed is reduced to 0, you can perform the deed as long as you have at least 1 grit point left. If a technique could already be performed while you have at least 1 grit point left, you may perform that technique even when you have no grit points remaining.</content>
+
+
+
+	<content contentuid="h06f95b61g2347g4079g9760g99c9fa0fe5e4" version="1">Pistolero Technique Save DCs</content> ========= Pistolero =========
+	<content contentuid="h40d69b14gd575g473bgb643g5384a12840dc" version="1">You may choose to use charisma (intimidation) in place of dexterity to determine the DC of saving throws for your subclass features, in which case the DC is 8 + charimsa (intimidation).</content>
+	<content contentuid="h5bef97b0gf493g46dfgb9b5g20086e36d13a" version="1">Raconteur's Reload</content>
+	<content contentuid="ha5487c49gd059g4751gb9adg035ab7c1c53c" version="1">The clicking sounds and the sight of you chambering another bullet stucks fear among your foes. At 1st level when you reload your firearm, you may spend 1 grit and cause all hostile creatures within 30ft of you to make a wisdom saving throw or be shakened until the start of your next turn.</content>
+	<content contentuid="h42e77359g9404g4228g8e15gc8d777598330" version="1">Ten Paces</content>
+	<content contentuid="h72448cc4gb471g4146g892egc6c2eeb4c469" version="1">You react to trouble with lightning speed, positioning yourself just right. Starting at level 6, You may add your Chatisma modifier to your initiative rolls, and when you roll for initiative you may move up to 10 feet.</content>
+	<content contentuid="heba29f05g97d4g42a9gb0acgc8952669bf2b" version="1">Pistolero's Retort</content>
+	<content contentuid="hfca785aag8709g4838g85a3g3f22570618cf" version="1">At level 10, when a creature within your short range critically fumbles in an attack roll, you may punish your foe’s failure with a shot. You may use your reaction to make an attack of opportunity with a one-handed firearm.</content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
@@ -34,6 +58,26 @@
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+
+
+
+	<content contentuid="" version="1"></content> =========  =========
+	<content contentuid="" version="1"></content> 
+	<content contentuid="" version="1"></content> =========  =========
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content> =========  =========
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content> =========  =========
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content> =========  =========
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content> =========  =========
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content> =========  =========
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content> =========  =========
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

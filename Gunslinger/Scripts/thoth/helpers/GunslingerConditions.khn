@@ -3,3 +3,11 @@ local __util = require 'larian.util'
 function TechniqueSaveDC()
     return 10 + math.max(GetModifier(context.Source.Dexterity))
 end
+
+function GunslingerTechniquesCheck()
+    return false
+end
+
+function ReloadCheck()
+    return SpellId('Shout_Reload_MainHand') | SpellId('Shout_Reload_OffHand') | SpellId('Shout_Reload_Both') | SpellId('Shout_Reload_Longarm')
+end

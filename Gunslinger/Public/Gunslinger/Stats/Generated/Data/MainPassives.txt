@@ -29,6 +29,16 @@ data "StatsFunctorContext" "OnActionResourcesChanged"
 data "Conditions" "not HasActionResource('GritPoint', 1, 0, false, false, context.Source)"
 data "StatsFunctors" "UnlockSpell(Shout_DesperateEvasion);UnlockSpell(Shout_FranticallyNimble);UnlockSpell(Shout_OutForBlood);UnlockSpell(Shout_RunLikeHell)"
 
+new entry "DareDevil_Remove"
+type "PassiveData"
+data "DisplayName" "h73d589dcg7642g4739g8997gda7df0866d1f;1"
+data "Description" "h81e0ffb3g0cc1g4e43gba13g8d69829e9c6a;1"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnActionResourcesChanged"
+data "Conditions" "HasActionResource('GritPoint', 1, 0, false, false, context.Source)"
+data "StatsFunctors" "RemoveStatus(DESPERATE_EVASION);RemoveStatus(DESPERATE_EVASION_SUCCESS_1);RemoveStatus(DESPERATE_EVASION_SUCCESS_2);RemoveStatus(FRANTICALLY_NIMBLE);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_1);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_2);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_3);RemoveStatus(OUT_FOR_BLOOD);RemoveStatus(RUN_LIKE_HELL);RemoveStatus(DARE_ACTIVE)"
+
 new entry "DesperateEvasion"
 type "PassiveData"
 data "Icon" "GenericIcon_DamageType_Lightning"
@@ -61,22 +71,54 @@ data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsAttack() and IsHit()"
 data "StatsFunctors" "RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_3);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_2);RemoveStatus(FRANTICALLY_NIMBLE_SUCCESS_1)"
 
+RUN_LIKE_HELL
+
 // ============================ Vigilant ============================ //
 
 new entry "Vigilant"
 type "PassiveData"
+data "DisplayName" "ha9e8d6b3g217bg4838ga0fegd3ebce84a210;1"
+data "Description" "hc11ebdddg2a64g474ega3a2gcc88f1ce858d;1"
 data "Icon" "GenericIcon_DamageType_Lightning"
-data "Properties" "IsHidden"
+data "Properties" "Highlighted"
 data "Boosts" "MinimumRollResult(Perception,10)"
 
-// ============================ Level 1 Techniques ============================ //
+// ============================ Stubborn ============================ //
 
-new entry "Passive_QuickFix"
+new entry "Stubborn"
 type "PassiveData"
-data "DisplayName" "TODO;1"
-data "Description" "TODO;1"
-data "Icon" "Action_Monster_GortashMachine_GrenadeLauncher"
-data "Properties" ""
-data "StatsFunctorContext" "OnAttack"
-data "Conditions" "IsWeaponAttack and IsMiss() and IsWeaponProficiencyGroup('Slings',GetActiveWeapon())"
-data "StatsFunctors" "UnlockSpell(Main-Hand_Firearm_Attack_Quick_Fix)"
+data "DisplayName" "habe96654gf955g4a2ag9905g99a24b8a0c62;1"
+data "Description" "hb24db78dgd983g4f9bgb06fg6f7d723ba939;1"
+data "Icon" "Spell_Transmutation_EnhanceAbility_OwlsWisdom"
+data "Boosts" "ActionResource(LegendaryResistanceCharge,1,0);UnlockInterrupt(Interrupt_LegendaryResistance_Wisdom)"
+data "Properties" "Highlighted"
+
+// ============================ Universal Armory ============================ //
+
+new entry "Universal_Armory"
+type "PassiveData"
+data "DisplayName" "hcfcf576fg1517g41bbgb2c5gc12971516402;1"
+data "Description" "h55dc29d3g24eag43bcgbe13g2555630d97ec;1"
+data "Icon" "Spell_Transmutation_EnhanceAbility_OwlsWisdom"
+data "Properties" "Highlighted"
+
+// ============================ Shootist's Edge ============================ //
+
+new entry "Shootists_Edge"
+type "PassiveData"
+data "DisplayName" "hb7771c84g986cg4c84g9397g1203bf591ce4;1"
+data "Description" "h5e40b0afg30adg4c96gbacfg94ba5c448513;1"
+data "Icon" "Spell_Transmutation_EnhanceAbility_OwlsWisdom"
+data "Boosts" "UnlockInterrupt(Interrupt_ShootistsEdge)"
+data "Properties" "Highlighted"
+
+// ============================ True Grit ============================ //
+
+new entry "True_Grit"
+type "PassiveData"
+data "DisplayName" "h12972960g76fdg4205ga4f1g406b904dc07e;1"
+data "Description" "h41953b1ega237g4339gbecbg8687e80de585;1"
+data "Icon" "Spell_Transmutation_EnhanceAbility_OwlsWisdom"
+data "Properties" "Highlighted"
+
+// I have moved the techniques to a separate file for organization purposes //
